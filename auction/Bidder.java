@@ -22,6 +22,7 @@ public class Bidder implements Observer {
     public void setBidAmt(double myBidAmt)
     {
         this.myBidAmt = myBidAmt;
+        auctioneer.auctionAmtChanged();
     }
 
     public void statusUpdate(Subject s) {

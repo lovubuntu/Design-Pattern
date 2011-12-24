@@ -22,13 +22,13 @@ public class Auction {
         bidder3.setBidAmt(150002);
         bidder4.setBidAmt(150003);
         bidder5.setBidAmt(150004);
-        auctioneer.auctionAmtChanged();
+        //auctioneer.auctionAmtChanged();
         bidder3.leaveAuction();
         bidder2.leaveAuction();
         bidder1.leaveAuction();
-        auctioneer.auctionAmtChanged();
+        //auctioneer.auctionAmtChanged();
         bidder4.setBidAmt(250008);
         bidder5.leaveAuction();
-        auctioneer.auctionAmtChanged();
+        //auctioneer.auctionAmtChanged();
     }
 }
